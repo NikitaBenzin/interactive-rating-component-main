@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Interactive rating component</title>
+</head>
+<body>
+
+  <main>
+    <div class="container">
+    
+      <!--SEND-->
+      <div id="send" class="card show">
+        <div class="card-star">
+          <img src="./images/icon-star.svg" alt="star">
+        </div>
+        <div class="card-header">
+          <h1>How did we do?</h1>
+        </div>
+        <div class="card-info">
+          <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+        </div>
+        <div class="card-rating">
+          <ul>
+            <li class="rating passive">1</li>
+            <li class="rating passive">2</li>
+            <li class="rating passive">3</li>
+            <li class="rating passive">4</li>
+            <li class="rating passive">5</li>
+          </ul>
+        </div>
+        <div class="card-send-btn">
+          <button class="send-btn">Submit</button>
+        </div>
+      </div>
+  
+      <!--Thank you-->
+      <div id="thank" class="card hide">
+        <div class="card-phone">
+          <img src="./images/illustration-thank-you.svg" alt="illustration thank you">
+        </div>
+        <div class="card-selected">
+          <p class="selected">You selected &nbsp<span class="selected-rating"></span>&nbsp out of 5</p>
+        </div>
+        <div class="card-header-thank">
+          <h1>Thank you!</h1>
+        </div>
+        <div class="card-info center">
+          <p>We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/NikitaBenzin">NikitaBenzin</a>.
+  </div>
+
+  <script src="./script.js"></script>
+
+</body>
+</html>

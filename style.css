@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Overpass", sans-serif;
+}
+
+body {
+  font-size: 15px;
+  color: hsl(217deg, 12%, 63%);
+}
+
+h1, button {
+  color: hsl(0deg, 0%, 100%);
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(218deg, 17%, 9%);
+}
+main .container {
+  max-width: 90%;
+}
+main .container .card {
+  background-color: hsl(212deg, 25%, 14%);
+  border-radius: 0.8rem;
+}
+main .container .card .card-star img {
+  background-color: hsl(214deg, 18%, 23%);
+  border-radius: 50%;
+  padding: 0.7rem;
+  margin: 1.2rem 0 0.6rem 1.2rem;
+}
+main .container .card .card-header {
+  padding: 0 0 0 1.2rem;
+}
+main .container .card .card-info {
+  padding: 1rem 1.2rem 0 1.2rem;
+}
+main .container .card .card-rating ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  min-width: 80%;
+  padding: 1.5rem 0.5rem 0 0.5rem;
+}
+main .container .card .card-rating ul li:first-child {
+  padding: 0.8rem 1.22rem;
+}
+main .container .card .card-rating ul .rating {
+  border-radius: 50%;
+  padding: 0.8rem 1.1rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+main .container .card .card-rating ul .rating:hover {
+  background-color: hsl(217deg, 12%, 63%);
+  color: hsl(0deg, 0%, 100%);
+}
+main .container .card .card-send-btn {
+  display: flex;
+  justify-content: center;
+}
+main .container .card .card-send-btn .send-btn {
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  background-color: hsl(25deg, 97%, 53%);
+  border: none;
+  width: 90%;
+  border-radius: 1.5rem;
+  padding: 0.8rem 0;
+  margin: 1.5rem 0;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+main .container .card .card-send-btn .send-btn:hover {
+  background-color: hsl(0deg, 0%, 100%);
+  color: hsl(25deg, 97%, 53%);
+}
+main .container .card .card-phone {
+  display: flex;
+  justify-content: center;
+}
+main .container .card .card-phone img {
+  margin: 2rem 0;
+}
+main .container .card .card-selected {
+  display: flex;
+  justify-content: center;
+}
+main .container .card .card-selected .selected {
+  color: hsl(25deg, 97%, 53%);
+  background-color: hsl(214deg, 18%, 23%);
+  display: flex;
+  justify-content: center;
+  padding: 0.4rem 0.6rem;
+  border-radius: 1.5rem;
+}
+main .container .card .card-header-thank {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+main .container .card .center {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+@media (min-width: 1400px) {
+  main .container {
+    max-width: 28%;
+  }
+}
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.active {
+  background-color: hsl(25deg, 97%, 53%);
+  color: hsl(0deg, 0%, 100%);
+}
+
+.passive {
+  background-color: hsl(214deg, 18%, 23%);
+}/*# sourceMappingURL=style.css.map */
